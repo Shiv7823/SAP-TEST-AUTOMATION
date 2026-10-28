@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.sqlite3
+
+# Node / Frontend
+node_modules/
+dist/
+.vite/
+
+# Environment variables
+.env
+.env.local
+
+# Temp uploads & data
+backend/data/*
+!backend/data/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
